@@ -1,0 +1,26 @@
+.fylo-link-wrapper .fylo-text {
+  color: #3da08f;
+}
+
+.fylo-underline {
+  background-color: #3da08f;
+  height: 1px;
+}
+
+.fylo-link-wrapper {
+  transition: transform 0.3s ease;
+}
+
+.fylo-link-wrapper:hover {
+  transform: translateY(-2px);
+}
+
+.fyloLogo-img {
+  width: 120px;
+}
+
+@media (max-width: 992px) {
+  .fyloLogo-img {
+      width: 76px;
+  }
+}

@@ -5,6 +5,6 @@
 
 # 項目連結 
 
-1. [japan-travele](https://xujiawei0812.github.io/css-practise/japan-travele/) : 使用 SCSS 進行切版
+1. [japan-travel](https://xujiawei0812.github.io/css-practise/japan-travel/) : 使用 SCSS 進行切版
 2. [introduction-to-go](https://xujiawei0812.github.io/css-practise/introduction-to-go/) : 使用 SCSS 進行切版
 3. [fylo-landing-page](https://xujiawei0812.github.io/css-practise/fylo-landing-page/) : 使用 Bootstrap5 進行切版

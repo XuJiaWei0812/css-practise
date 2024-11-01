@@ -1,0 +1,77 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.hero-section h1,
+.hero-section p {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.download-btn-ios {
+  background-color: #26baa4;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(38, 186, 164, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn-mac {
+  background-color: #6173ff;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(97, 115, 255, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* hover 和 focus 狀態的樣式 */
+.download-btn-ios:hover,
+.download-btn-ios:focus {
+  box-shadow: 0 6px 12px rgba(38, 186, 164, 0.6);
+  transform: scale(1.05);
+  outline: none;
+}
+
+.download-btn-mac:hover,
+.download-btn-mac:focus {
+  box-shadow: 0 6px 12px rgba(97, 115, 255, 0.6);
+  transform: scale(1.05);
+  outline: none;
+}
+
+.feature-section h2,
+.feature-section p {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.social-icons a img {
+  transition: filter 0.3s ease;
+}
+
+/* 當滑鼠移上時應用 filter 變化顏色 */
+.social-icons a:hover img {
+  filter: invert(55%) sepia(18%) saturate(600%) hue-rotate(135deg) brightness(90%) contrast(85%);
+}
